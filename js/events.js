@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 getIt()
- frameIt()
+frameIt()
 // call functions here
 
 
@@ -15,7 +15,7 @@ function getIt(){
 }
 
  function frameIt(){
-   $('img').on('load'. function()){
+   $('img').on('load', function()){
       if ( $( this ).height() > 100) {
     $( this ).addClass( "tasty" );
    }
