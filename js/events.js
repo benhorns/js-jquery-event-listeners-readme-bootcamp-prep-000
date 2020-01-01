@@ -16,7 +16,6 @@ function getIt(){
 
  function frameIt(){
    $('img').on('load', function(){
-      if ( $( this ).height() > 1) {
     $( this ).addClass( "tasty" );
    }
  });
