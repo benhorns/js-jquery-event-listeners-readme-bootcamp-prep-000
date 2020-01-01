@@ -15,9 +15,9 @@ function getIt(){
 }
 
  function frameIt(){
-   $('img').on('load', function()){
+   $('img').on('load', function(){
       if ( $( this ).height() > 100) {
     $( this ).addClass( "tasty" );
    }
- }
+ });
  }
