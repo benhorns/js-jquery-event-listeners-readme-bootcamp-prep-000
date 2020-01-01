@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 getIt()
-frameIt()
+// frameIt()
 // call functions here
 
 
